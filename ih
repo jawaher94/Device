@@ -1,0 +1,6 @@
+em.out.println("\nTurn on only the oven:");
+        remote.turnOnByType(Oven.class);
+
+        System.out.println("\nTurn all devices OFF:");
+        remote.turnAllOff();
+    }
